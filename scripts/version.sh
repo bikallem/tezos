@@ -12,7 +12,7 @@
 
 ocaml_version=4.12.0+domains
 opam_version=2.1
-recommended_rust_version=1.55.0
+recommended_rust_version=1.52.1
 
 ## full_opam_repository is a commit hash of the public OPAM repository, i.e.
 ## https://github.com/ocaml/opam-repository
