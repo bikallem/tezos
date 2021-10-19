@@ -17,6 +17,7 @@
       in {
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
+            autoconf
             rsync
             git
             m4
@@ -38,7 +39,7 @@
           ];
 
           RUST_SRC_PATH =
-            "${pkgs.rust.packages.stable.rustPlatform.rustLibSrc}";
+            "${pkgs-21_05.rust.packages.stable.rustPlatform.rustLibSrc}";
         };
       });
 }
