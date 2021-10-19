@@ -1,8 +1,6 @@
 {
   description = "Tezos NixOS developement environment using flakes";
 
-  nixConfig.bash-prompt = "[nix-develop]$ ";
-
   inputs = {
     nixpkgs-unstable.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
