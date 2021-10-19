@@ -1,5 +1,5 @@
 {
-  description = "Tezos NixOS developement environment using flakes";
+  description = "Tezos NixOS development environment using flakes";
 
   inputs = {
     nixpkgs-unstable.url = "github:nixos/nixpkgs/nixpkgs-unstable";
